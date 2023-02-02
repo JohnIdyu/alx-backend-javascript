@@ -48,4 +48,4 @@ export class StudentClass implements IStudentClass {
 
 export function createStudent(ctor: IStudentClassConstructor, firstName: string, lastName: string): IStudentClass {
 	return new ctor(firstName, lastName);
-}
+}i

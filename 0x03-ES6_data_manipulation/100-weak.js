@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * A weak map of endpoints and the number of calls made.
  */
@@ -15,7 +14,7 @@ const MAX_ENDPOINT_CALLS = 5;
  *   protocol: String,
  *   name: String,
  * }} endpoint - The endpoint to make a request to.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * @author John Idyu <https://github.com/JohnIdyu>
  */
 export function queryAPI(endpoint) {
   if (!weakMap.has(endpoint)) {
@@ -26,6 +25,3 @@ export function queryAPI(endpoint) {
     throw new Error('Endpoint load is high');
   }
 }
-=======
-i
->>>>>>> 6192369d9fccb90fcfafed39b626dbe3d5b2e809

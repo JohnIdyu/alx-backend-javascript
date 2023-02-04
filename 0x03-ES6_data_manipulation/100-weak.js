@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * A weak map of endpoints and the number of calls made.
  */
@@ -25,3 +26,6 @@ export function queryAPI(endpoint) {
     throw new Error('Endpoint load is high');
   }
 }
+=======
+i
+>>>>>>> 6192369d9fccb90fcfafed39b626dbe3d5b2e809

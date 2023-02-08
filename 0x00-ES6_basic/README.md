@@ -1,11 +1,7 @@
-# ES6 Basics
+# 0x00. ES6 Basics
 **`Javscript`** **`ES6`**
 
-This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
-
-
 ![meme](./images/meme1.png)
-
 
 ## Resources
 **Read or watch:**
@@ -150,7 +146,6 @@ module.exports = {
 
 ## Finally…
 Don’t forget to run `npm install` from the terminal of your project folder to install all necessary project dependencies.
-
 ## Tasks To Complete
 
 + [x] 0. **Const or let?**<br/>[0-constants.js](0-constants.js) contains a script that meets the following requirements.

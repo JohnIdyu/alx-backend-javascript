@@ -1,7 +1,7 @@
 # 0x00. ES6 Basics
 **`Javscript`** **`ES6`**
 
-![meme](./images/meme1.png)
+This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
 
 ## Resources
 **Read or watch:**

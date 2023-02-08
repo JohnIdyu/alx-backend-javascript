@@ -1,5 +1,5 @@
 # 0x00. ES6 Basics
-**`Javscript`** **`ES6`**
+**`Javascript`** **`ES6`**
 
 This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
 

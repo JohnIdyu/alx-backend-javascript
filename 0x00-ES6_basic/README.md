@@ -3,7 +3,9 @@
 
 This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
 
+
 ![meme](./images/meme1.png)
+
 
 ## Resources
 **Read or watch:**

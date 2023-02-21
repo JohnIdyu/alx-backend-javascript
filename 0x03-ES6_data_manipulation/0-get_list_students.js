@@ -13,9 +13,4 @@ export default function getListStudents() {
   
     const o3 = {
       id: 5,
-      firstName: 'Serena',
-      location: 'San Francisco',
-    };
-  
-    return [o1, o2, o3];
-  }
+      firstNa

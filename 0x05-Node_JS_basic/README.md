@@ -1,4 +1,12 @@
-# NodeJS Basics
+# :book: 0x05. NodeJS Basics.
+## :page_with_curl: Topics Covered.
+This project involves learning NodeJS basics concept covered;
+1. Using NodeJS modules
+2. Reading files
+3. Creating HTTP servers
+4. Using Express JS
+5. Testing with Mocha.
+6. Using Nodemon.
 
 This project contains tasks for learning to the basics of NodeJS.
 
@@ -11,6 +19,47 @@ This project contains tasks for learning to the basics of NodeJS.
   + The user should be able to input their name on a new line.
   + The program should display `Your name is: INPUT`.
   + When the user ends the program, it should display `This important software is now closing` (followed by a new line).
+
+# :computer: Tasks.
+<!---->
+## [0. Executing basic javascript with Node JS](0-console.js)
+### :page_with_curl: Task requirements.
+In the file `0-console.js`, create a function named `displayMessage` that prints in `STDOUT` the string argument.
+```
+    bob@dylan:~$ cat 0-main.js
+    const displayMessage = require('./0-console');
+    
+    displayMessage("Hello NodeJS!");
+    
+    bob@dylan:~$ node 0-main.js
+    Hello NodeJS!
+    bob@dylan:~$
+```
+
+**Repo:**
+
+* GitHub repository: `alx-backend-javascript`
+* Directory: `0x05-Node_JS_basic`
+* File: `0-console.js`
+
+### :wrench: Task setup.
+```bash
+# Create solution file.
+touch 0-console.js
+chmod +x 0-console.js
+
+# Lint.
+npm run lint 0-console.js --fix
+
+# Test.
+touch tests/0-main.js
+chmod +x tests/0-main.js
+node tests/0-main.js
+```
+
+### :heavy_check_mark: Solution
+> [:point_right: 0-console.js](0-console.js)
+<!---->
 
 + [x] 2. **Reading a file synchronously with Node JS**<br/>[2-read_file.js](2-read_file.js) contains a module that exports a function `countStudents` with the following requirements:
   + Create a function named `countStudents`. It should accept a path in argument.

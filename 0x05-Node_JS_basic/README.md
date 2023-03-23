@@ -14,12 +14,6 @@ This project contains tasks for learning to the basics of NodeJS.
 
 + [x] 0. **Executing basic javascript with Node JS**<br/>[0-console.js](0-console.js) contains a module that exports a function named `displayMessage` that prints in `STDOUT` the string argument.
 
-+ [x] 1. **Using Process stdin**<br/>[1-stdin.js](1-stdin.js) contains a script that will be executed through the command line with the following requirements:
-  + It should display the message `Welcome to Holberton School, what is your name?` (followed by a new line).
-  + The user should be able to input their name on a new line.
-  + The program should display `Your name is: INPUT`.
-  + When the user ends the program, it should display `This important software is now closing` (followed by a new line).
-
 # :computer: Tasks.
 <!---->
 ## [0. Executing basic javascript with Node JS](0-console.js)
@@ -60,6 +54,12 @@ node tests/0-main.js
 ### :heavy_check_mark: Solution
 > [:point_right: 0-console.js](0-console.js)
 <!---->
+
+[x] 1. **Using Process stdin**<br/>[1-stdin.js](1-stdin.js) contains a script that will be executed through the command line with the following requirements:
+  + It should display the message `Welcome to Holberton School, what is your name?` (followed by a new line).
+  + The user should be able to input their name on a new line.
+  + The program should display `Your name is: INPUT`.
+  + When the user ends the program, it should display `This important software is now closing` (followed by a new line).
 
 + [x] 2. **Reading a file synchronously with Node JS**<br/>[2-read_file.js](2-read_file.js) contains a module that exports a function `countStudents` with the following requirements:
   + Create a function named `countStudents`. It should accept a path in argument.
